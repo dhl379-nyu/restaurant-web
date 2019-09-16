@@ -1,0 +1,62 @@
+body {
+  background-image: url(paper.jpg);
+  /* Designate background image as paper.jpg */
+}
+
+h1 {
+  color: #d18b30;
+  /* Warm light brown color for text */
+  font-family: serif;
+  /* Designated serif font for text */
+  text-align: center;
+  /* Aligned the first header to center */
+  margin-top: 60px;
+  /* Top margin is given 60px spacing */
+  border-bottom: 1px solid #d18b30;
+  /* Added a 1px solid line  */
+}
+
+h2 {
+  color: #d18b30;
+  /* Same color as h1 */
+  font-family: "Pristina";
+  /* Set font to Pristina */
+  text-align: center;
+  /* Aligned to center */
+}
+
+h3 {
+  font-size: 1%;
+  /* Text size set to minimum */
+  color: #5e5e5e;
+  /* Text color brightened to make it more difficult to read */
+  text-align: center;
+}
+
+.blacktext {
+  color: black;
+  /* Designated color black */
+  text-align: justify;
+  /* Text justified for even spacing */
+  text-align: center;
+  /* Text aligned to center */
+  font-family: "Tw Cen MT";
+  /* Font family designated as Tw Cen MT */
+}
+
+p {
+  text-align: center;
+  /* Align to center */
+}
+
+img {
+  display: block;
+  /* Made into a block element for centering */
+  max-width: 50%;
+  /* Limited maximum image width to be 50% to be responsive */
+  margin-top: 60px;
+  /* Added space to the top */
+  margin-left: auto;
+  margin-right: auto;
+  /* Both left and right margin set to "auto" for center alignment */
+}
